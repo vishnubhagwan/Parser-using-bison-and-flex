@@ -1,0 +1,9 @@
+int main() {
+  int sampleStuff[4];
+  
+  sampleStuff[0] = 1;
+  sampleStuff[1] = 42;
+  sampleStuff[sampleStuff[1]/42 + 1] = 31;
+  sampleStuff[3] = sampleStuff[0] + sampleStuff[1]*sampleStuff[2];
+
+}
